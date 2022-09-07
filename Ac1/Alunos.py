@@ -25,7 +25,7 @@ def main():
 def gravarAluno():
   nome = request.form['nome']
   cpf = request.form['cpf']
-  endereco = request.form['endereco']dados_alunos
+  endereco = request.form['endereco']
   if nome and cpf and endereco:
     conn = mysql.connect()
     cursor = conn.cursor()
